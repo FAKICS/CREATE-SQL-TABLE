@@ -1,0 +1,12 @@
+create table healing_scriptures
+(
+	id_no integer
+	scripture_title varchar(40),
+	scripture_book varchar(40),
+	scripture_chapter integer(5),
+	verse integer (5),
+	scripture text varchar(1000),
+        scripture_link varchar(100),
+	prayer varchar (1250),
+	bible source varchar(100);
+);
